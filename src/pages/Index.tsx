@@ -158,7 +158,7 @@ export default function Index() {
       {/* HERO */}
       <section className="relative h-screen min-h-[600px] flex items-center overflow-hidden">
         <div className="absolute inset-0">
-          <img src="https://cdn.poehali.dev/projects/d11a414a-adce-458a-872f-85375a340234/files/4830d7b3-cbf5-4397-83a8-d60ae92f40f9.jpg" alt="Небо" className="w-full h-full object-cover" />
+          <img src="https://cdn.poehali.dev/projects/d11a414a-adce-458a-872f-85375a340234/files/5c46f8fa-aa1b-4c27-89c1-81f5dc6f27fa.jpg" alt="Небо" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-b from-white/10 via-transparent to-white/90" />
           <div className="absolute inset-0 bg-gradient-to-r from-white/40 to-transparent" />
         </div>
