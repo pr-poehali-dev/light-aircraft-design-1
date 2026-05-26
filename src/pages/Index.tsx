@@ -122,9 +122,7 @@ export default function Index() {
             href="#"
             onClick={e => { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); }}
             className="font-display font-semibold text-xl tracking-[0.15em] uppercase text-[#0a0a0a]"
-          >
-            Конструкторское бюро «А. Кеменова»
-          </a>
+          />
           <div className="hidden md:flex items-center gap-8">
             {NAV_LINKS.map(l => (
               <button
