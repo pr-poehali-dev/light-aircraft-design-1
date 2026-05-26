@@ -164,17 +164,19 @@ export default function Index() {
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-6 pb-20 w-full">
           <p className="font-body text-xs tracking-[0.4em] uppercase text-gray-500 mb-4 animate-[fadeUp_0.8s_ease-out_0.2s_both]">
-            Конструкторское бюро лёгкой авиации
+            О компании
           </p>
           <h1 className="font-display font-light text-5xl md:text-7xl lg:text-8xl uppercase tracking-tight text-[#0a0a0a] leading-none animate-[fadeUp_0.8s_ease-out_0.4s_both]">
-            Мы строим
+            Конструкторское
           </h1>
           <h1 className="font-display font-semibold text-5xl md:text-7xl lg:text-8xl uppercase tracking-tight text-[#0a0a0a] leading-none mb-8 animate-[fadeUp_0.8s_ease-out_0.5s_both]">
-            Самолёты
+            бюро
           </h1>
-          <p className="font-body font-light text-lg md:text-xl text-gray-700 max-w-xl mb-10 animate-[fadeUp_0.8s_ease-out_0.65s_both]">
-            Проектирование и производство легкомоторных воздушных судов для обучения, деловой авиации и специальных задач.
-          </p>
+          <div className="font-body font-light text-lg md:text-xl text-gray-700 max-w-xl mb-10 animate-[fadeUp_0.8s_ease-out_0.65s_both] flex flex-col gap-3">
+            <p>Конструкторское бюро «А. Кеменова» создано в 2020-м году.</p>
+            <p>Основное направление деятельности — разработка и производство авиационной техники.</p>
+            <p className="hidden md:block">В конструкторском бюро собрана команда квалифицированных специалистов в области проектирования, конструирования, производства и обслуживания летательных аппаратов.</p>
+          </div>
           <div className="animate-[fadeUp_0.8s_ease-out_0.8s_both]">
             <button
               onClick={() => scrollTo("#projects")}
