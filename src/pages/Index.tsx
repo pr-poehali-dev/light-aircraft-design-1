@@ -162,7 +162,7 @@ export default function Index() {
           <div className="absolute inset-0 bg-gradient-to-b from-white/10 via-transparent to-white/90" />
           <div className="absolute inset-0 bg-gradient-to-r from-white/40 to-transparent" />
         </div>
-        <div className="relative z-10 max-w-7xl mx-auto px-6 pb-20 w-full">
+        <div className="relative z-10 max-w-7xl mx-auto px-6 pb-40 w-full">
           <p className="font-body text-xs tracking-[0.4em] uppercase text-gray-500 mb-4 animate-[fadeUp_0.8s_ease-out_0.2s_both]">
             О компании
           </p>
