@@ -156,7 +156,7 @@ export default function Index() {
       </nav>
 
       {/* HERO */}
-      <section className="relative h-screen min-h-[600px] flex items-end overflow-hidden">
+      <section className="relative h-screen min-h-[600px] flex items-center overflow-hidden">
         <div className="absolute inset-0">
           <img src={HERO_IMAGE} alt="Самолёт АвиаКБ" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-b from-white/10 via-transparent to-white/90" />
