@@ -123,7 +123,7 @@ export default function Index() {
             onClick={e => { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); }}
             className="font-display font-semibold text-xl tracking-[0.15em] uppercase text-[#0a0a0a]"
           >
-            КБ «А. Кеменова»
+            Конструкторское бюро «А. Кеменова»
           </a>
           <div className="hidden md:flex items-center gap-8">
             {NAV_LINKS.map(l => (
@@ -473,7 +473,7 @@ export default function Index() {
       {/* FOOTER */}
       <footer className="border-t border-gray-100 py-10">
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
-          <span className="font-display font-semibold text-lg tracking-[0.15em] uppercase">КБ «А. Кеменова»</span>
+          <span className="font-display font-semibold text-lg tracking-[0.15em] uppercase">Конструкторское бюро «А. Кеменова»</span>
           <span className="font-body text-xs text-gray-400">© 2026 Конструкторское бюро лёгкой авиации. Все права защищены.</span>
           <div className="hidden md:flex gap-6">
             {NAV_LINKS.map(l => (
