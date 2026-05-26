@@ -166,13 +166,7 @@ export default function Index() {
           <p className="font-body text-xs tracking-[0.4em] uppercase text-gray-500 mb-4 animate-[fadeUp_0.8s_ease-out_0.2s_both]">
             О компании
           </p>
-          <h1 className="font-display font-light text-5xl md:text-7xl lg:text-8xl uppercase tracking-tight text-[#0a0a0a] leading-none animate-[fadeUp_0.8s_ease-out_0.4s_both]">
-            Конструкторское
-          </h1>
-          <h1 className="font-display font-semibold text-5xl md:text-7xl lg:text-8xl uppercase tracking-tight text-[#0a0a0a] leading-none mb-8 animate-[fadeUp_0.8s_ease-out_0.5s_both]">
-            бюро
-          </h1>
-          <div className="font-body font-light text-lg md:text-xl text-gray-700 max-w-xl mb-10 animate-[fadeUp_0.8s_ease-out_0.65s_both] flex flex-col gap-3">
+          <div className="font-body font-light text-lg md:text-xl text-gray-700 max-w-xl mb-10 mt-4 animate-[fadeUp_0.8s_ease-out_0.4s_both] flex flex-col gap-3">
             <p>Конструкторское бюро «А. Кеменова» создано в 2020-м году.</p>
             <p>Основное направление деятельности — разработка и производство авиационной техники.</p>
             <p className="hidden md:block">В конструкторском бюро собрана команда квалифицированных специалистов в области проектирования, конструирования, производства и обслуживания летательных аппаратов.</p>
