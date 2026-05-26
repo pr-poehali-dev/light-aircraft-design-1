@@ -121,8 +121,9 @@ export default function Index() {
           <a
             href="#"
             onClick={e => { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); }}
-            className="font-display font-semibold text-xl tracking-[0.15em] uppercase text-[#0a0a0a]"
-          />
+          >
+            <img src="https://cdn.poehali.dev/projects/d11a414a-adce-458a-872f-85375a340234/bucket/f02634c3-47b7-4e95-b9b9-e99279b8357e.png" alt="КБ Кеменова" className="h-10 w-auto" />
+          </a>
           <div className="hidden md:flex items-center gap-8">
             {NAV_LINKS.map(l => (
               <button
