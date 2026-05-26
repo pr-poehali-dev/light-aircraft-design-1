@@ -157,11 +157,13 @@ export default function Index() {
 
       {/* HERO */}
       <section className="relative h-screen min-h-[600px] flex items-center overflow-hidden">
-        <div className="absolute inset-0">
-          <img src={HERO_IMAGE} alt="Самолёт АвиаКБ" className="w-full h-full object-cover" />
-          <div className="absolute inset-0 bg-gradient-to-b from-white/10 via-transparent to-white/90" />
-          <div className="absolute inset-0 bg-gradient-to-r from-white/40 to-transparent" />
-        </div>
+        <div className="absolute inset-0 bg-[#f5f5f3]" />
+        <img
+          src="https://cdn.poehali.dev/projects/d11a414a-adce-458a-872f-85375a340234/bucket/39c48325-0353-4328-b7f4-66a324560ce3.png"
+          alt="Самолёт АвиаКБ"
+          className="absolute right-0 top-1/2 -translate-y-1/2 w-[60%] md:w-[55%] object-contain"
+          style={{ mixBlendMode: 'multiply', filter: 'grayscale(20%) brightness(0.92) drop-shadow(0 8px 32px rgba(0,0,0,0.10))' }}
+        />
         <div className="relative z-10 max-w-7xl mx-auto px-6 pb-40 w-full">
           <p className="font-body text-xs tracking-[0.4em] uppercase text-gray-500 mb-4 animate-[fadeUp_0.8s_ease-out_0.2s_both]">
             О компании
